@@ -15,7 +15,9 @@
             "django": true,
             "env": {
                 "DB_USER": "postgres",
-                "DB_PASSWORD": "Hatimura1066!"
+                "DB_PASSWORD": "Hatimura1066!",
+                "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev",
+                "FROM_EMAIL": "8villageisfun16@gmail.com"
             }
         }
     ]
