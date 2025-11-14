@@ -19,6 +19,36 @@
                 "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev",
                 "FROM_EMAIL": "8villageisfun16@gmail.com"
             }
+        },
+        {
+            "name": "makemigrations",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "makemigrations"
+            ],
+            "django": true,
+            "env": {
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "Hatimura1066!",
+                "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev",
+            }
+        },
+        {
+            "name": "migrate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "migrate"
+            ],
+            "django": true,
+            "env": {
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "Hatimura1066!",
+                "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev",
+            }
         }
     ]
 }
